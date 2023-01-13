@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.navbarColor {
+  background-color: #8c8b8ba9;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -6,23 +6,22 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-import logo from '../HabitLogo2.png';
+import logo from '../SwordFlowerTitle3.svg';
+import title from '../SwordFlowerTitle2.svg'
 
 
 function OffcanvasExample() {
   return (
     <>
-      {['xxl'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="mb-3" bg="dark" variant="dark">
+      {['sm'].map((expand) => (
+        <Navbar key={expand} expand={expand} className="mb-3 navbarColor">
           <Container fluid>
             <Navbar.Brand href="#">
                 <img
-                alt=""
                 src={logo}
-                width="30"
-                height="30"
+                width="250"
                 className="d-inline-block align-top"
-                /> Swordflower
+                /> 
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
