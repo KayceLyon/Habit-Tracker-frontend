@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -30,6 +31,10 @@
 
 .navbarColor {
   background-color: #8c8b8ba9;
+}
+
+.ring {
+  
 }
 
 @keyframes App-logo-spin {
