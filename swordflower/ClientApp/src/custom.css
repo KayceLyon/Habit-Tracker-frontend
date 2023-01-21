@@ -1,4 +1,23 @@
 /* Provide sufficient contrast against white background */
+
+@font-face {
+  font-family: "Sword";
+  src: local("The Last Kingdom"),
+    url("./fonts/THE\ LAST\ KINGDOM.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pixel";
+  src: local("PixelIntv-OPxd"),
+    url("./fonts/PixelIntv-OPxd.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pixel Font";
+  src: local("PublicPixel-z84yD"),
+    url("./fonts/PublicPixel-z84yD.ttf") format("truetype");
+}
+
 a {
   color: #0366d6;
 }
@@ -15,4 +34,16 @@ code {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+body {
+  font-family: "Pixel Font";
+  color: #4fa400;
+  text-shadow: 1px 1px #5b7743 ;
+  background-color: #e0dede;
+}
+
+.title {
+  text-align: center;
+  margin-top: 1.5em;
 }

@@ -1,12 +1,20 @@
-﻿a.navbar-brand {
+﻿@font-face {
+  font-family: "Sword";
+  src: local("The Last Kingdom"),
+    url("../fonts/THE\ LAST\ KINGDOM.ttf") format("truetype");
+}
+
+a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
 html {
+  font-family: "Sword";
   font-size: 14px;
 }
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -15,4 +23,10 @@ html {
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.logout {
+  font-size: 14px;
+  color: #6d9f43;
+  text-shadow: 1px 1px #5b7743 ;
 }
