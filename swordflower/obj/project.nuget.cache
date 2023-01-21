@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "crh9kE4Bb4lvXSEzXfJJzAm84y2zsJZ8mqfHeyAwIyH9VgSOUMyx2qByIqWKZESvihqN41PS5KORFR3CkjQksQ==",
+  "success": true,
+  "projectFilePath": "/Users/ghuleh/Dev/Habit-Tracker/Habit-Tracker-frontend/swordflower/swordflower.csproj",
+  "expectedPackageFiles": [
+    "/Users/ghuleh/.nuget/packages/microsoft.aspnetcore.spaproxy/7.0.0/microsoft.aspnetcore.spaproxy.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
